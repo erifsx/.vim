@@ -15,6 +15,7 @@ let NERDTreeMinimalUI=1
 let NERDTreeDirArrows=1
 
 " Load custom settings
+source ~/.vim/startup/auto.vim
 source ~/.vim/startup/color.vim
 source ~/.vim/startup/commands.vim
 source ~/.vim/startup/functions.vim
