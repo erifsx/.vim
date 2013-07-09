@@ -24,7 +24,7 @@ filetype off                   " required!
  Bundle 'L9'
  Bundle 'FuzzyFinder'
  " non github repos
- Bundle 'git://git.wincent.com/command-t.git'
+ Bundle 'https://github.com/kien/ctrlp.vim.git'
  " ...
 
  filetype plugin indent on     " required!
