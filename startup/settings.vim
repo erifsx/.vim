@@ -19,6 +19,8 @@ endif
 " let &scrolloff=999-&scrolloff "auto center text
 set smartcase
 
+filetype plugin on
+set omnifunc=syntaxcomplete#Complete
 set completeopt=menu
 set mousemodel=popup
 set backspace=2
@@ -63,11 +65,19 @@ let mapleader='\'
 "  let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 "endif
 
-if has('win32')
-" let g:Powerline_symbols = 'fancy'
-elseif has('unix')
-"  let g:Powerline_symbols = 'fancy'
-  let g:clipbrdDefaultReg = '+'
-endif
+set encoding=utf-8
+" set guifont=Consolas\ for\ Powerline\ FixedD:h9
+let g:Powerline_symbols = 'fancy'
+let g:clipbrdDefaultReg = '+'
+
+" Control P Settings
+" Working Path Modes
+"   r - nearest repository is path
+"   c - current directory of file is path
+"   a - same as c, but only applies when the current working
+"     directory is not a direct ancestor of the current file
+"   0 - disable
+let g:ctrlp_working_path_mode = 'ra'
+
 
 " call Pl#Theme#InsertSegment('ws_marker', 'after', 'lineinfo')

@@ -11,15 +11,16 @@ filetype off                   " required!
  "
  " original repos on github
  Bundle 'tpope/vim-fugitive'
- Bundle 'Lokaltog/vim-easymotion'
- Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
- Bundle 'tpope/vim-rails.git'
  Bundle 'vim-scripts/Conque-Shell'
  Bundle 'vim-scripts/The-NERD-tree'
  Bundle 'vim-scripts/vcscommand.vim'
- Bundle 'Lokaltog/vim-easymotion'
  Bundle 'Lokaltog/vim-powerline'
  Bundle 'shawncplus/skittles_berry'
+ Bundle 'MarcWeber/vim-addon-mw-utils.git'
+ Bundle 'tomtom/tlib_vim.git'
+ Bundle 'garbas/vim-snipmate.git'
+ Bundle 'honza/vim-snippets'
+ Bundle 'terryma/vim-multiple-cursors'
  " vim-scripts repos
  Bundle 'L9'
  Bundle 'FuzzyFinder'
