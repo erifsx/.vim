@@ -1,7 +1,3 @@
-"Pathogen
-call pathogen#runtime_append_all_bundles()
-
-
 "============== Custom scripts ===============
 source ~/.vim/after/syntaxcheck.vim
 

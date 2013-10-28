@@ -24,6 +24,11 @@ fun! CheckTabs()
 	endif
 endfun
 
+" Make a project with my cs folder structure
+function! CSMake()
+  :!"cd .. && make"
+endfun
+
 function! EnsureDirExists ()
 	let required_dir = expand("%:h")
 	if !isdirectory(required_dir)

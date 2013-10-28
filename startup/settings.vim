@@ -20,7 +20,7 @@ endif
 set smartcase
 
 filetype plugin on
-set omnifunc=syntaxcomplete#Complete
+"set omnifunc=syntaxcomplete#Complete
 set completeopt=menu
 set mousemodel=popup
 set backspace=2
@@ -37,6 +37,7 @@ set smarttab
 
 set shiftwidth=2		" set to 2 character tabs 
 set softtabstop=2
+set nofoldenable "because code folding can be really annoying
 
 set linespace=0
 set history=1000
@@ -81,3 +82,6 @@ let g:ctrlp_working_path_mode = 'ra'
 
 
 " call Pl#Theme#InsertSegment('ws_marker', 'after', 'lineinfo')
+
+" c_lang settings
+
