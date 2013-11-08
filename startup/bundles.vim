@@ -9,12 +9,12 @@ Bundle 'gmarik/vundle'
 
 " My Bundles here:
 "
-" original repos on github
+" Repos on github
+Bundle 'bling/vim-airline'
 Bundle 'tpope/vim-fugitive'
 Bundle 'vim-scripts/Conque-Shell'
 Bundle 'vim-scripts/The-NERD-tree'
 Bundle 'vim-scripts/vcscommand.vim'
-Bundle 'Lokaltog/vim-powerline'
 Bundle 'shawncplus/skittles_berry'
 Bundle 'MarcWeber/vim-addon-mw-utils.git'
 Bundle 'tomtom/tlib_vim.git'
