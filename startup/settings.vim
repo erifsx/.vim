@@ -79,9 +79,6 @@ let g:clipbrdDefaultReg = '+'
 "     directory is not a direct ancestor of the current file
 "   0 - disable
 let g:ctrlp_working_path_mode = 'ra'
-
-
 " call Pl#Theme#InsertSegment('ws_marker', 'after', 'lineinfo')
 
 " c_lang settings
-
