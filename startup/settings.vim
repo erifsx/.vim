@@ -14,7 +14,7 @@ set shortmess=aAIsT
 set cmdheight=2
 set nowrap
 if &diff
-	set wrap
+  set wrap
 endif
 " let &scrolloff=999-&scrolloff "auto center text
 set smartcase
@@ -53,8 +53,8 @@ set wrap
 " set tags=~/.vim/tags/tags
 
 if version > 720
-	set undofile
-	set undodir=~/vimundo/
+  set undofile
+  set undodir=~/vimundo/
 endif
 
 let mapleader=','
@@ -178,7 +178,8 @@ endif
 " For perlomni.vim setting.
 " https://github.com/c9s/perlomni.vim
 let g:neocomplete#sources#omni#input_patterns.perl = '\h\w*->\h\w*\|\h\w*::'
-
+let g:clang_library_file='/usr/lib/llvm-3.2/lib/libclang.so'
+let g:clang_use_library=1
 
 " NeoSnippet
 " Plugin key-mappings.

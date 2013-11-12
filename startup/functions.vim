@@ -29,6 +29,10 @@ function! CSMake()
   :!"cd .. && make"
 endfun
 
+function! FixWin()
+  :%s/\r//g
+endfunction
+
 function! EnsureDirExists ()
 	let required_dir = expand("%:h")
 	if !isdirectory(required_dir)
