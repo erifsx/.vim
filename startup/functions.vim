@@ -33,6 +33,10 @@ function! FixWin()
   :%s/\r//g
 endfunction
 
+function! Fuck()
+  :echo 'no fuck you sir!'
+endfunction
+
 function! EnsureDirExists ()
 	let required_dir = expand("%:h")
 	if !isdirectory(required_dir)
